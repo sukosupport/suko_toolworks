@@ -1,0 +1,7 @@
+User-agent: *
+# 後で削除予定（公開時にAllowへ戻す）
+Disallow: /
+
+# 後で削除予定（公開時に有効化）
+# Sitemap: https://example.com/sitemap.xml
+

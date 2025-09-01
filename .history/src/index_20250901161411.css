@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: "Zen Maru Gothic";
+    src: local("Zen Maru Gothic"),
+      url("https://fonts.gstatic.com/s/zenmarugothic/v21/Y4GXYbRykBbbS0MDql1EkQ.woff2") format("woff2");
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  :root {
+    --logo-font: "Zen Maru Gothic", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+}
